@@ -20,4 +20,8 @@ public class Persona {
         edad++;
         System.out.println(nombre + " ha cumplido años. Ahora tiene " + edad + " años.");
     }
+    
+    public String getDireccionCompleta() {
+        return direccion.obtenerDireccionCompleta();
+    }
 }
